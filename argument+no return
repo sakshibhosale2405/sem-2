@@ -1,0 +1,14 @@
+// #include <stdio.h>
+// int sum(int a,int b)
+// {
+//     int c= a+b;
+//     printf("the value of given numbers is: %d",c);
+// }
+
+// int main(){
+// int a,b;
+// printf("enter the value of a,b: ");
+// scanf("%d%d",&a,&b); 
+// sum(a,b);
+//     return 0;
+// }
