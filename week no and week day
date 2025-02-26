@@ -1,0 +1,41 @@
+#include<stdio.h>
+int main()
+{
+    int week_day;
+    printf("enter a week_day between(1-7)");
+    scanf("%d",&week_day);
+    if(week_day==1)
+    {
+        printf("monday");
+    }
+    else if(week_day==2)
+    {
+    printf("tuesday");
+   }
+ else if(week_day==3)
+    {
+        printf("wednesday");
+    }
+     else if(week_day==4)
+    {
+        printf("thursday");
+    }
+     else if(week_day==5)
+    {
+        printf("friday");
+    }
+     else if(week_day==6)
+    {
+        printf("saturday");
+    }
+     else if(week_day==7)
+    {
+        printf("sunday");
+    }
+    else
+    {
+        printf("invalid choice\n please enter week_day no between (1-7 ");
+    }
+    
+    return 0;
+}
