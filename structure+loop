@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main() {
+    struct student{
+        int roll_no;
+        float percentage;
+        char grade;
+        
+    }aditya,arnav;
+    printf("Enter a roll no of aditya and arnav:");
+    scanf("%d %d",&aditya.roll_no,&arnav.roll_no);
+     printf("Enter a percentage of aditya and arnav:");
+    scanf("%f %f",&aditya.percentage,&arnav.percentage);
+   
+     printf("Enter a grade of aditya:");
+         getchar();
+    scanf("%c",&aditya.grade);
+
+    printf("Enter a grade of arnav:");
+        getchar();
+    scanf("%c",&arnav.grade);
+    
+ printf("roll no of aditya and arnav is %d %d\n:",aditya.roll_no,arnav.roll_no);
+   
+     printf("percentage of aditya and arnav is %f %f\n:",aditya.percentage,arnav.percentage);
+   
+     printf("grade of aditya and arnavis %c %c\n:",aditya.grade,arnav.grade);
+     if(aditya.percentage<arnav.percentage)
+     {
+         printf("percentage of arnav is greater than aditya");
+     }
+     else
+     {
+         printf("percentage of aditya is greater than arnav");
+     }
+    return 0;
+}
