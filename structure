@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+   struct cp{
+       char name[100];
+       
+       int run;
+       int wickets;
+       
+   }player;
+   printf("Enter a name:");
+   fgets(player.name,sizeof(player.name),stdin);
+   printf("Enter a run:");
+  scanf("%d",&player.run);
+  printf("Enter a wickets:");
+  scanf("%d",&player.wickets);
+  printf("name of player is:%s",player.name);
+  printf("runs:%d\n",player.run);
+  printf("wickets:%d",player.wickets);
+ 
+    return 0;
+}
